@@ -1,0 +1,651 @@
+body{
+    
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+.line-header {
+	background: #2d1919;
+	width: 95%;
+	height: 3px;
+	margin-top: 3px;
+}
+.main-btn {
+	background: #FFC545 0% 0% no-repeat padding-box;
+	border: 2px solid #191919;
+	font: normal normal 600 20px/30px Poppins;
+	letter-spacing: 0px;
+	color: #191919;
+	padding: 16px 49px;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 50px;
+}
+.menu-item {
+	min-height: 449px;
+	height: 100%;
+	background: #fffdfa 0% 0% no-repeat padding-box;
+	border-radius: 29px;
+	box-shadow: #f9e5b8 0px 7px 29px 0px;
+	padding: 35px;
+	text-align: center;
+	opacity: 0.86;
+}
+
+/* header CSS */
+.page-header {
+	border-bottom: none;
+	padding: 40px 10px 5px;
+	margin: 0;
+}
+.nav-menu {
+	width: 80%;
+	justify-content: flex-start;
+	display: flex;
+}
+.nav-menu a {
+	font: normal normal 600 18px/27px Poppins;
+	letter-spacing: 1.26px;
+	color: #191919;
+	text-transform: uppercase;
+	padding: 15px;
+}
+/* Banner section css */
+.banner-background-img {
+    background-image: url('../assets/images/Group-544.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 740px;
+	width: -webkit-fill-available;
+	position: relative;
+}
+.banner-section {
+	height: 100%;
+	background: #FFF9EC 0% 0% no-repeat padding-box;
+	overflow: inherit;
+}
+.banner-title {
+	position: absolute;
+	top: 15%;
+	left: 14%;
+	padding: 50px 10px;
+}
+.banner-title-heading {
+	font: normal normal 600 60px/90px Poppins;
+	letter-spacing: 0px;
+}
+.banner-title-pera {
+	font: normal normal 600 30px/48px Poppins;
+	letter-spacing: 2.1px;
+	color: #191919;
+}
+.banner-title-heading .food {
+	color: #FFC545;
+}
+.banner-btn {
+	background: #191919 0% 0% no-repeat padding-box;
+	border: 2px solid #FFFFFF;
+	color: #ffffff;
+	position: absolute;
+	top: 75%;
+	right: 75px;
+}
+.banner-order-via {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 50px;
+}
+.banner-order-via p {
+	font: normal normal 600 22px/33px Poppins;
+	letter-spacing: 0.66px;
+	color: #191919;
+	margin: 0 5px;
+}
+
+/* Process section */
+.process-section {
+	padding: 85px 50px;
+}
+.dish-img {
+	width: 232px;
+	height: 232px;
+}
+.item-type {
+	width: 20px;
+	height: 20px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 2px solid #007810;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	float: right;
+}
+.item-heading {
+	font: normal normal 600 24px/35px Poppins;
+	letter-spacing: 0.72px;
+	color: #191919;
+	margin: 31px 0 0;
+}
+.item-tittle {
+	font: normal normal normal 20px/32px Poppins;
+	letter-spacing: 1.4px;
+	color: #4D4D4D;
+	margin: 12px 0 0;
+}
+.item-price {
+	font: normal normal 600 24px/35px Poppins;
+	letter-spacing: 0.72px;
+	color: #191919;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 6px 10px 0;
+}
+.item-price img {
+	width: 12px;
+	height: 18px;
+	margin-right: 5px;
+}
+.tittle-heading {
+	font: normal normal bold 50px/65px Poppins;
+	letter-spacing: 0px;
+	color: #191919;
+}
+.tittle-pera {
+	font: normal normal normal 20px/32px Poppins;
+	letter-spacing: 1.4px;
+	color: #4D4D4D;
+}
+.background-bee-img {
+	background-image: url('../assets/images/icon/background-bee.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 390px;
+	height: 315px;
+	position: absolute;
+	right: 0;
+}
+.item-tab {
+	text-transform: uppercase;
+	font: normal normal 600 22px/33px Poppins;
+	letter-spacing: 0px;
+	margin-bottom: 55px;
+}
+.item-tab a {
+	font: normal normal 500 22px/33px Poppins;
+	letter-spacing: 0px;
+	color: #C8C8C8;
+	margin: 0 10px;
+}
+.active-item {
+	color: #402e2e !important;
+	font: normal normal 600 22px/33px Poppins !important;
+}
+/* Css Slider */
+.MultiCarousel {
+	float: left;
+	overflow: hidden;
+	padding: 15px;
+	width: 100%;
+	position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+	transition: 1s ease all;
+	float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+	float: left;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+	position: absolute;
+	border-radius: 50%;
+	top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+	left: 0;
+}
+.MultiCarousel .rightLst {
+	right: 0;
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+	pointer-events: none;
+	background: #191919;
+	outline: none;
+	color: #ffffff;
+}
+.slider-right-btn {
+	background: #191919;
+	outline: none;
+	color: #ffffff;
+	width: 44px;
+	height: 44px;
+	border: 1px solid #191919;
+}
+.slider-left-btn {
+	width: 44px;
+	height: 44px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #191919;
+}
+.slider-left-btn img {
+	fill: #191919;
+}
+.slider-right-btn:hover, .slider-right-btn:focus, .slider-right-btn.focus {
+	color: #ffffff;
+	outline: none;
+}
+.viewmore {
+	text-align: center;
+	margin: 55px 0 0;
+}
+/* End  */
+
+/* Endless Css */
+.section-endless-food {
+	padding: 92px 52px;
+	background: #FFF9EC 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.right-background-image {
+	background-image: url('../assets/images/icon/Subtraction-25.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 240px;
+	height: 70%;
+	position: absolute;
+	right: 0;
+	top: 15%;
+}
+.left-background-image {
+	background-image: url('../assets/images/icon/Subtraction-23.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 240px;
+	height: 70%;
+	position: absolute;
+	left: 0;
+	top: 15%;
+}
+/* What Inspired Us? Section */
+.section-about-us {
+	height: 798px;
+	background: #FFC545 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.about-us-card {
+	height: 582px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 0 16px 16px 0;
+	position: relative;
+	left: -15px;
+	top: 110px;
+}
+.path-img {
+	background-image: url('../assets/images/icon/Path-28.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 223px;
+	height: 33px;
+	right: 31px;
+	bottom: -30px;
+}
+.about-bee-img {
+	width: 80px;
+	height: 160px;
+	position: absolute;
+	left: 0;
+	top: 60px;
+}
+.about-info {
+	padding: 75px 57px 76px 80px;
+}
+.about-info .tittle-pera {
+	font: normal normal normal 16px/28px Poppins;
+}
+.about-min-tittle {
+	font: normal normal 600 24px/35px Poppins;
+	letter-spacing: 0.72px;
+	color: #191919;
+}
+.team-name {
+	font: normal normal 600 20px/32px Poppins;
+	letter-spacing: 1.4px;
+	color: #191919;
+}
+.about-i {
+	position: absolute;
+	top: 205px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+}
+.bc-img-about {
+	background-image: url('../assets/images/icon/Path-343.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 284px;
+	height: 246px;
+	right: 50px;
+	top: 60px;
+}
+.btn-postion {
+	position: relative;
+}
+.about-info-btn {
+	border: 2px solid #ffffff;
+	font: normal normal 500 20px/30px Poppins;
+	color: #ffffff;
+	padding: 10px 30px;
+	background: #191919;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+/* Bee a Part of the Revolution  */
+.section-revolution {
+	height: 889px;
+	border: 1px solid #00000000;
+	background-image: url('../assets/images/icon/Subtraction-5.svg');
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 70px 0;
+}
+.revolution-info-card {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 16px;
+	box-shadow: #feeecb 0px 48px 100px 0px;
+	padding: 65px 80px;
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	right: 25%;
+}
+.revol-img {
+	width: 85%;
+	height: auto;
+	position: absolute;
+	top: 36px;
+	right: 0%;
+}
+
+/*Bee-licious Food At Your Doorstep  */
+.section-bee-licious {
+	height: 798px;
+	background: #FFC545 0% 0% no-repeat padding-box;
+	position: relative;
+	position: relative;
+	padding: 40px 0;
+}
+.text-bee-licious {
+	font: normal normal 600 22px/33px Poppins;
+	letter-spacing: 0.66px;
+	color: #191919;
+}
+.bt-size {
+	bottom: -28px  !important;
+}
+.cloud-1 {
+	position: absolute;
+	width: 241px;
+	height: 91px;
+	background-image: url('../assets/images/icon/Group-401.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	opacity: 1;
+	left: 100px;
+}
+.cloud-2 {
+	position: absolute;
+	width: 175px;
+	height: 100px;
+	background-image: url('../assets/images/icon/Group-402.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	opacity: 0.7;
+	right: 10%;
+}
+.bike-rider-img {
+	width: 49%;
+	height: auto;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 360px;
+	margin: auto;
+	transform: translate(-50%, -50%);
+}
+.bee-licious-card {
+	padding: 40px 60px 40px 100px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	top: 42px;
+	right: 0;
+	border-radius: 0 16px 16px 0;
+	position: relative;
+	margin-left: -15px;
+}
+.bee-licious-img {
+	width: 65px;
+	height: 64px;
+}
+.Bee-licious-right-section {
+	position: relative;
+}
+/* Never Miss a Single Offer */
+section.section-single-offer {
+	height: 740px;
+	position: relative;
+	padding: 100px 0;
+}
+.offer-tittle {
+	font: 600 24px/35px Poppins;
+	letter-spacing: 0.72px;
+	color: #191919;
+	opacity: 1;
+}
+.bee-Offer-shadow {
+	width: 310px;
+	height: 215px;
+	background: #E63E3E 0% 0% no-repeat padding-box;
+	box-shadow: 0px 0px 30px #00000029;
+	opacity: 0.35;
+	filter: blur(50px);
+	position: absolute;
+	top: 265px;
+	left: 33%;
+}
+.bee-Offer {
+	width: 50%;
+	position: absolute;
+	top: 290px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bee-Offer-section {
+	position: relative;
+}
+.offer-div {
+	justify-content: center;
+	align-items: center;
+	height: 568px;
+}
+.offer-div .contant-div {
+	padding: 0  150px 0 0px;
+}
+.subscribe-filed {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #bdbdbd;
+	border-radius: 0;
+	outline: none;
+	height: 3rem;
+	width: 100%;
+	font-size: 16px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	-webkit-transition: border .3s, -webkit-box-shadow .3s;
+	transition: border .3s, -webkit-box-shadow .3s;
+	transition: box-shadow .3s, border .3s;
+	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+/* What Our Customers Say  */
+.customers-section {
+	height: 553px;
+	background: #FFC545 0% 0% no-repeat padding-box;
+	opacity: 1;
+	padding: 90px 0;
+}
+.card {
+	margin: 0 auto;
+	height: 401px;
+	width: 70%;
+	background: #FFF9EC 0% 0% no-repeat padding-box;
+	border-radius: 16px;
+	opacity: 1;
+	filter: blur(0px);
+}
+/* client */
+.customers-testimonial .carousel-control-next, .carousel-control-prev {
+	width: 7%;
+}
+.test-mo-btn {
+	border-radius: 50px;
+	color: #000000;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.c-2 {
+	color: #ffffff;
+	background: #000000;
+}
+.carousel-inner {
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+	top: 20%;
+}
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background-color: #FFC545;
+	border: 1px solid #000000;
+	margin: 3px;
+}
+.carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	margin: 3px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.pera-testimonial {
+	font: italic normal normal 24px/40px Poppins;
+	letter-spacing: 0.72px;
+	color: #191919;
+}
+.customer-name {
+	font: normal normal 600 30px/46px Poppins;
+	letter-spacing: 0.9px;
+	color: #191919;
+}
+
+/* Follow us */
+.follow-us-section {
+	padding: 150px 40px 50px;
+	height: 500px;
+}
+.follow-us-id {
+	font: normal normal 400 24px/35px Poppins;
+	letter-spacing: 0.72px;
+	color: #FFC545;
+}
+.follow-us-id:hover {
+	color: #191919;
+}
+.follow-us-title {
+	font: normal normal bold 50px/76px Poppins;
+	letter-spacing: 0px;
+	color: #191919;
+}
+.background-bee-img-2 {
+	background-image: url('../assets/images/icon/background-bee.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 300px;
+	height: 245px;
+	position: absolute;
+	left: 0;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	margin: -70px 0;
+}
+
+/* Footer section */
+.footer-section {
+	height: 477px;
+	background: #191919 0% 0% no-repeat padding-box;
+	color: #ffffff;
+	background-image: url('../assets/images/icon/Group-415.svg');
+	position: relative;
+	padding: 80px 80px;
+}
+.bee-bc-img {
+	background-image: url('../assets/images/icon/Group-415.svg');
+	height: 269px;
+	width: 386px;
+	background-size: contain;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 35%;
+	left: 50%;
+}
+.footer-header {
+	font: normal normal 600 22px/37px Poppins;
+	letter-spacing: 1.54px;
+	color: #FFFFFF;
+}
+.footer-section a {
+	display: block;
+	font: normal normal normal 16px/32px Poppins;
+	letter-spacing: 1.12px;
+	color: #DCDCDC;
+}
+.footer-social-icon {
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
+.item-center-footer {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
