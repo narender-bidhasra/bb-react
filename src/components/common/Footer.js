@@ -60,7 +60,7 @@ const Footer = () => {
 						<h5 className="footer-header">Menu</h5>
 						<div className="footer-menus">
 							{Menus.map(({ label, ...rest }, index) => (
-								<a href="#" key={index + 'ft-1'}>{label}</a>
+								<a href="/" key={index + 'ft-1'}>{label}</a>
 							))}
 						</div>
 					</Col>
@@ -68,23 +68,23 @@ const Footer = () => {
 						<h5 className="footer-header">Support</h5>
 						<div className="footer-menus">
 							{Support.map(({ label, ...rest}, index) => (
-								<a href="#" key={index + 'ft-2'}>{label}</a>
+								<a href="/" key={index + 'ft-2'}>{label}</a>
 							))}
 						</div>
 					</Col>
 					<Col lg={3} md={6} sm={12} xs={12}>
 						<h5 className="footer-header">Contact</h5>
-						<a href="#" style={{color: '#FFC545'}}>+91 8571016161</a>
-						<a href="#" style={{color: '#FFC545'}}>hi@bitesbee.Com</a>
-						<a href="#">G-016, Bestech Business Towers, Sector 66, Mohali, Punjab, 160066</a>
+						<a href="/" style={{color: '#FFC545'}}>+91 8571016161</a>
+						<a href="/" style={{color: '#FFC545'}}>hi@bitesbee.Com</a>
+						<a href="/">G-016, Bestech Business Towers, Sector 66, Mohali, Punjab, 160066</a>
 					</Col>
 					<Col lg={3} md={6} sm={12} xs={12}>
 						<h5 className="footer-header ">Download Our App</h5>
 						<div className="d-flex justify-content-between rp-sm">
-							<a href="#">
+							<a href="/">
 								<img src={iconG1} alt="store" />
 							</a>
-							<a href="#">
+							<a href="/">
 								<img src={iconG2} alt="store" />
 							</a>
 						</div>
@@ -96,7 +96,7 @@ const Footer = () => {
 						<img src={iconG3} alt="store" />
 					</Col>
 					<Col lg={4} md={12} sm={12} xs={12} className="text-center item-center-footer">
-						<a href="#"> © BitesBee 2021. All rights reserved.</a>
+						<a href="/"> © BitesBee 2021. All rights reserved.</a>
 					</Col>
 					<Col lg={4} md={12} sm={12} xs={12} className="item-center-footer justify-content-md-end">
 						<SocialMedia />

@@ -6,19 +6,19 @@ import iconIG from '../../assets/images/icon/Icon-feather-instagram.svg'
 const SocialMedia = () => {
 	return(
         <div className="footer-social-icon">
-            <a href="#">
+            <a href="/">
                 <img src={iconFB} alt="facebook" />
             </a>
-            <a href="#">
+            <a href="/">
                 <img src={iconTW} alt="twitter" />
             </a>
-            <a href="#">
+            <a href="/">
                 <img src={iconIG} alt="instagram" />
             </a>
-            <a href="#">
+            <a href="/">
                 <img src={iconTW} alt="twitter" />
             </a>
-            <a href="#">
+            <a href="/">
                 <img src={iconFB} alt="facebook" />
             </a>
         </div>
