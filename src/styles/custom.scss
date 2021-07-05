@@ -21,7 +21,7 @@ a:hover {
 	margin-top: 3px;
 }
 .main-btn {
-	background: #FFC545 0% 0% no-repeat padding-box;
+	background: #FFC545;
 	border: 2px solid #191919;
 	font: normal normal 600 20px/30px Poppins;
 	letter-spacing: 0px;
@@ -35,9 +35,9 @@ a:hover {
 .menu-item {
 	min-height: 449px;
 	height: 100%;
-	background: #fffdfa 0% 0% no-repeat padding-box;
+	background: #fffdfa;
 	border-radius: 29px;
-	box-shadow: #f9e5b8 0px 7px 29px 0px;
+	box-shadow: 0px 7px 29px 0px #f9e5b8;
 	padding: 35px;
 	text-align: center;
 	opacity: 0.86;
@@ -72,7 +72,7 @@ a:hover {
 }
 .banner-section {
 	height: 100%;
-	background: #FFF9EC 0% 0% no-repeat padding-box;
+	background: #FFF9EC;
 	overflow: inherit;
 }
 .banner-title {
@@ -94,7 +94,7 @@ a:hover {
 	color: #FFC545;
 }
 .banner-btn {
-	background: #191919 0% 0% no-repeat padding-box;
+	background: #191919;
 	border: 2px solid #FFFFFF;
 	color: #ffffff;
 	position: absolute;
@@ -127,7 +127,7 @@ a:hover {
 .item-type {
 	width: 20px;
 	height: 20px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	border: 2px solid #007810;
 	align-items: center;
 	justify-content: center;
@@ -238,7 +238,7 @@ a:hover {
 .slider-left-btn {
 	width: 44px;
 	height: 44px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	border: 1px solid #191919;
 }
 .slider-left-btn img {
@@ -252,12 +252,12 @@ a:hover {
 	text-align: center;
 	margin: 55px 0 0;
 }
-/* End  */
+/* End */
 
 /* Endless Css */
 .section-endless-food {
 	padding: 92px 52px;
-	background: #FFF9EC 0% 0% no-repeat padding-box;
+	background: #FFF9EC;
 	position: relative;
 }
 .right-background-image {
@@ -283,12 +283,12 @@ a:hover {
 /* What Inspired Us? Section */
 .section-about-us {
 	height: 798px;
-	background: #FFC545 0% 0% no-repeat padding-box;
+	background: #FFC545;
 	position: relative;
 }
 .about-us-card {
 	height: 582px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	border-radius: 0 16px 16px 0;
 	position: relative;
 	left: -15px;
@@ -358,7 +358,7 @@ a:hover {
 	transform: translate(-50%, 0);
 }
 
-/* Bee a Part of the Revolution  */
+/* Bee a Part of the Revolution */
 .section-revolution {
 	height: 889px;
 	border: 1px solid #00000000;
@@ -369,9 +369,9 @@ a:hover {
 	padding: 70px 0;
 }
 .revolution-info-card {
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	border-radius: 16px;
-	box-shadow: #feeecb 0px 48px 100px 0px;
+	box-shadow: 0px 48px 100px 0px #feeecb;
 	padding: 65px 80px;
 	width: 100%;
 	position: absolute;
@@ -386,10 +386,10 @@ a:hover {
 	right: 0%;
 }
 
-/*Bee-licious Food At Your Doorstep  */
+/* Bee-licious Food At Your Doorstep */
 .section-bee-licious {
 	height: 798px;
-	background: #FFC545 0% 0% no-repeat padding-box;
+	background: #FFC545;
 	position: relative;
 	position: relative;
 	padding: 40px 0;
@@ -400,7 +400,7 @@ a:hover {
 	color: #191919;
 }
 .bt-size {
-	bottom: -28px  !important;
+	bottom: -28px !important;
 }
 .cloud-1 {
 	position: absolute;
@@ -436,7 +436,7 @@ a:hover {
 }
 .bee-licious-card {
 	padding: 40px 60px 40px 100px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	top: 42px;
 	right: 0;
 	border-radius: 0 16px 16px 0;
@@ -450,6 +450,7 @@ a:hover {
 .Bee-licious-right-section {
 	position: relative;
 }
+
 /* Never Miss a Single Offer */
 section.section-single-offer {
 	height: 740px;
@@ -465,7 +466,7 @@ section.section-single-offer {
 .bee-Offer-shadow {
 	width: 310px;
 	height: 215px;
-	background: #E63E3E 0% 0% no-repeat padding-box;
+	background: #E63E3E;
 	box-shadow: 0px 0px 30px #00000029;
 	opacity: 0.35;
 	filter: blur(50px);
@@ -512,10 +513,10 @@ section.section-single-offer {
 	transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
 }
 
-/* What Our Customers Say  */
+/* What Our Customers Say */
 .customers-section {
 	height: 553px;
-	background: #FFC545 0% 0% no-repeat padding-box;
+	background: #FFC545;
 	opacity: 1;
 	padding: 90px 0;
 }
@@ -523,11 +524,12 @@ section.section-single-offer {
 	margin: 0 auto;
 	height: 401px;
 	width: 70%;
-	background: #FFF9EC 0% 0% no-repeat padding-box;
+	background: #FFF9EC;
 	border-radius: 16px;
 	opacity: 1;
 	filter: blur(0px);
 }
+
 /* client */
 .customers-testimonial .carousel-control-next, .carousel-control-prev {
 	width: 7%;
@@ -611,12 +613,12 @@ section.section-single-offer {
 
 /* Footer section */
 .footer-section {
-	height: 477px;
-	background: #191919 0% 0% no-repeat padding-box;
+	height: auto;
+	background: #191919;
 	color: #ffffff;
 	background-image: url('../assets/images/icon/Group-415.svg');
 	position: relative;
-	padding: 80px 80px;
+	padding: 80px;
 }
 .bee-bc-img {
 	background-image: url('../assets/images/icon/Group-415.svg');
