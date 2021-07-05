@@ -21,15 +21,15 @@ const Header = () => {
         <header className="fixed-top page-header">	
             <Container fluid>
                 <nav id="navbar" className="navbar navbar-expand-lg justify-content-between">
-                    <a href="#">
+                    <a href="/">
                         <img src={logo} alt="Logo" />
                     </a>
                     <div className="nav-menu">
                         {MainMenu.map(({label, index, ...rest}) => (
-                            <a href="" key={index}>{label} <div className="line-header"></div></a>
+                            <a href="/" key={index}>{label} <div className="line-header"></div></a>
                         ))}
                     </div>
-                    <a href="#">
+                    <a href="/">
                         <img src={menuIcon} alt="Menu Icon" />
                     </a>
                 </nav>

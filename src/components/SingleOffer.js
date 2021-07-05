@@ -8,7 +8,7 @@ const SinglOfferSection = () => {
             <div className="background-bee-img"></div>
             <Container fluid>
                 <Row>
-                    <Col lg={6} md={12} xs={12} xs={12} className="bee-Offer-section">
+                    <Col lg={6} md={12} sm={12} xs={12} className="bee-Offer-section">
                         <div className="bee-Offer-shadow"></div>
                         <img className="bee-Offer" src={BeepIcon} alt="beep" width="100%" />
                     </Col>
