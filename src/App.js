@@ -7,13 +7,14 @@ import AboutSection from './components/AboutUs'
 import RevolutionSection from './components/Revolution'
 import BeeLiciousSection from './components/BeeLicious'
 import SinglOfferSection from './components/SingleOffer'
-
+import CustomSlider from './components/common/ProductsSlider'
 
 function App() {
   return (
     <div>
       <WithHeaderFooter>
         <BannerSection />
+        <CustomSlider />
         <Endless />
         <AboutSection />
         <RevolutionSection />
